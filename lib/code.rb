@@ -76,4 +76,8 @@ class Code
     matches
   end
 
+  def ==(guess_code)
+    guess_code.pegs == self.pegs
+  end
+
 end
