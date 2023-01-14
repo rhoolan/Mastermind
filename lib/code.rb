@@ -30,6 +30,7 @@ class Code
   end
 
   def [](index)
+    @pegs[index]
   end
 
 end
