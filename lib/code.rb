@@ -29,4 +29,7 @@ class Code
     Code.new(pegs.split(""))
   end
 
+  def [](index)
+  end
+
 end
